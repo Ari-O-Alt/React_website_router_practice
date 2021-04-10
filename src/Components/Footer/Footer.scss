@@ -1,0 +1,31 @@
+.footerContainer {
+  height: auto;
+  background-color: #210002;
+  color: #ffaf00;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  column-gap: 1rem;
+  padding: 1rem 0;
+}
+.footerContainer h3 {
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+.footerItem {
+  font-size: 0.8rem;
+}
+
+.item1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.item2 {
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+.item3 {
+  grid-column-start: 8;
+  grid-column-end: 11;
+}

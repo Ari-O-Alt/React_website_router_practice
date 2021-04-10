@@ -1,0 +1,46 @@
+/* Variables */
+$header-bg-color: #210002;
+$links-color: #ffaf00;
+$links-bg-color: #a34300;
+
+.headerContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: $header-bg-color;
+  height: 2.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  color: $links-color;
+  text-decoration: none;
+  line-height: 2.5rem;
+  padding-left: 2rem;
+}
+
+.navList {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.navItem {
+  text-align: center;
+  color: $links-color;
+  text-decoration: none;
+  line-height: 2.5rem;
+}
+
+.navItem:hover {
+  cursor: pointer;
+  background-color: $links-bg-color;
+}
+
+.current {
+  background-color: $links-bg-color;
+}
