@@ -6,7 +6,7 @@ To run the project, clone it and use, depending on which package manager you use
 `yarn start`<br/>
 `yarn run start`.<br/>
 
-Please note that before running the project you will most likely need to run `npm install`.
+Please note that before running the project you will most likely need to run `npm install` (or need to take another action, depending on the build error you get).
 
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
